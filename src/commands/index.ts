@@ -25,14 +25,6 @@ export default commands
 
 export const DISCORD_COMMANDS = [
   {
-    name: 'ping',
-    description: 'Simple ping pong response',
-  },
-  {
-    name: 'test',
-    description: 'Test message components',
-  },
-  {
     name: 'poll',
     description: 'Create a poll',
     options: [
