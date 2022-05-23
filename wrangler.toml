@@ -1,0 +1,15 @@
+name = "discord-poll"
+main = "src/server.ts"
+compatibility_date = "2022-05-18"
+node_compat = true
+account_id = "390e849c755e56fda74210e253e09fdb"
+workers_dev = true
+
+kv_namespaces = [
+  { binding = "POLLS", preview_id = "3ecb0666efaf452598edea7fa8f855d5", id = "20f63b1f2ac44c8abb363edcc91d3892" }
+]
+
+[vars]
+DISCORD_PUBLIC_KEY = "daf07f15c4cf41680de34d74f4d045b3ce2be14dddfc1ab53cf40327e2f2b064"
+DISCORD_APPLICATION_ID = "976110995053379636"
+DISCORD_TOKEN = "OTc2MTEwOTk1MDUzMzc5NjM2.GGBEvb.XcaRWc3aI6D70csFbr5ThiVXIkj8Tq4JUduIaY"
